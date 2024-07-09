@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ececec;
+}
+.form-container{
+    display: flex;
+    background-image: url(./Photos/vector3.jpeg);
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    width: 80%;
+    margin-left:12%;
+    margin-top: 05%;
+}
+.form-container h1{
+    color: #fff;
+    font-size: 03.5rem;
+    align-self: center;
+}
+form{
+    width: 50%;
+    background-color: #fff;
+    margin-left: 10%;
+    text-align: center;
+    padding-top: 05%;
+}
+form legend{
+font-size: 2rem;
+font-weight: bolder;
+text-align: left;
+margin-left: 12%;
+}
+form p{
+    color: #a4a3a3;
+    margin-top: 5%;
+    text-align: left;
+margin-left: 12%;
+font-size: smaller;
+}
+form .user-name{
+    text-align: left;
+    margin-left: 12%; 
+    margin-bottom: 05%;
+    margin-top: 10%;
+}
+form .password{
+    text-align: left;
+    margin-left: 12%; 
+}
+form label{
+    color: #a4a3a3;
+    
+}
+form input{
+    width: 70%;
+    padding: 03%;
+    margin-top: 2%;
+    border-radius: 5px;
+    border:1px solid #a4a3a3; 
+}
+.remember-me{
+    margin-top: 5%;
+    
+}
+
+.remember-me input{
+    
+   margin-left: -360px;
+}
+.remember-me p{
+position: relative;
+margin-top: -18px;
+margin-left: 80px;
+color: black;
+font-size: small;
+}
+
+.forget-password p{
+    position: relative;
+    margin-top: -29px;
+    margin-left: 280px;
+    color: #a4a3a3;
+    font-size: small;
+    cursor: pointer;
+    }
+
+button{
+    margin-top: 05%;
+    width: 67%;
+    padding: 03%;
+    margin-left: -38px;
+    background-color: #8744f7;
+    border: 1px solid #8744f7;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Sign Up */
+.signup{
+    margin-top: 10%;
+}
+.signup b{
+    color: #8744f7;
+    cursor: pointer;
+}
