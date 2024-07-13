@@ -96,6 +96,10 @@ button{
     color: #fff;
     cursor: pointer;
 }
+button:hover{
+    background-color: white  ;
+    color: #8744f7;
+}
 
 /* Sign Up */
 .signup{
